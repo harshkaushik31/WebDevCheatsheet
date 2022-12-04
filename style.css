@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #202020;
+    color: whitesmoke;
+    height: 4.5rem;
+}
+.logo img{
+    height: 2.5rem;
+    width: 2.5em;
+    margin-right: 1rem;
+}
+.container{
+    /* background-color: red; */
+    width: 70vw;
+    margin: auto;
+    padding: 1.5rem 2rem 1.5rem 2rem; 
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+.toolbar-item button{
+    cursor: pointer !important;
+    border: 2px solid white !important;
+    color: white !important;
+    margin: 0.25rem !important;
+}
