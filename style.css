@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto';
 }
 nav{
     display: flex;
@@ -11,12 +12,13 @@ nav{
     height: 4.5rem;
 }
 .logo img{
+    filter: invert();
     height: 2.5rem;
     width: 2.5em;
     margin-right: 1rem;
+    background-color: greenyellow;
 }
 .container{
-    /* background-color: red; */
     width: 70vw;
     margin: auto;
     padding: 1.5rem 2rem 1.5rem 2rem; 
